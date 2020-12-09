@@ -99,4 +99,24 @@ Otros --> reglas CSS y más
      height: 8px;
      margin-left: 10px;
      background-image: url('../Proyecto-Mobile-First/assets/icon/down-arrow.svg');
- }svg
+ }
+
+ main {
+     width: 100%;
+     height: auto;
+     background-color: var(--off-white);
+ }
+
+ .main--exchange-container {
+     width: 100%;
+     height: auto;
+     padding: 80px 0 30px;
+     text-align: center;
+ }
+
+ .main--exchange-title {
+     width: 90%;
+     min-width: 288px;
+     max-width: 900px;
+     margin: 0 auto;
+ }
