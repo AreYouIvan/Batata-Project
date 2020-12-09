@@ -10,7 +10,7 @@ Otros --> reglas CSS y más
     --soft-orange:#FFE9D5;
     --bitcoin-orange: #f7931a;
     --secondary-blue: #1A9AF7;
-    --soft-blue: #1A9AF7;
+    --soft-blue: #E7F5FF;
     --warm-black: #201E1C;
     --black: #282623;
     --grey: #BABABA;
@@ -181,12 +181,12 @@ Otros --> reglas CSS y más
     height: 100%;
  }
 
- .main--currency-container td {
+ .main--tables-container .main--currency-container td {
      width: 50%;
      font-size: 1.6rem;
      font-weight: 500;
      line-height: 1.9rem;
-     color: var(--grey);
+     color: #B5B0AC;
      background-color: var(--just-white);
  }
 
@@ -206,12 +206,18 @@ Otros --> reglas CSS y más
     border-radius: 0 0 15px 0;
 }
 
-.main--currency-container .table__right {
+.main--currency-table .main--currency-container .table__right {
     font-size: 1.4rem;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 1.7rem;
     color: #757575;
 }
+/* .main--currency-table .main--currency-container .table__left {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.7rem;
+    color: #B5B0AC;
+} */
 
 .main--currency-container .down {
     display: inline-block;
@@ -222,4 +228,84 @@ Otros --> reglas CSS y más
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+.main--currency-container .up{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+    background-image: url(./assets/icon/up.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main--date-update {
+    width: 190px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 8px;
+    background-color: var(--soft-orange);
+    border-radius: 8px;
+    
+}
+
+.main--date-update p {
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: var(--warm-black);
+}
+
+/* Comisions table */
+.main--currency-table .main--currency-title-1 {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.3rem;
+    color: var(--secondary-blue);
+}
+
+.main--date-update-1 {
+    width: 190px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 8px;
+    background-color: var(--soft-blue);
+    border-radius: 8px;
+}
+
+.main--date-update-1 p {
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: var(--warm-black);
+}
+
+.main--product-detail {
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 20px 10px;
+    background-color: var(--warm-black);
+}
+
+.product--detail-potatologo {
+    position: absolute;
+    width: 40px;
+    height: 25px;
+    top: -10px;
+    left: calc(50% - 20px);
+    background-image: url(./assets/icon/batata.svg);
+}
+
+.main-product--detail-title {
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin-top: 50px;
+    text-align: center;
 }
