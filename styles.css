@@ -27,6 +27,7 @@ Otros --> reglas CSS y más
  html {
      font-size: 62.5%;
      font-family: 'DM Sans';
+     scroll-behavior: smooth; /* Scroll suave */
  }
 
  header {
@@ -400,7 +401,7 @@ Otros --> reglas CSS y más
     width: 100%;
     min-width: 320px;
     line-height: 1.8rem;
-    height: 50vh;
+    height: 65vh;
     background-image: url(./assets/icon/bitcoinbaby-x2.jpg);
     background-position: center;
     background-size: cover;
@@ -415,5 +416,121 @@ Otros --> reglas CSS y más
     line-height: 2.6rem;
     color: var(--just-white);
     text-align: center;
+
+}
+
+.main--plans-container {
+    width: 100%;
+    padding: 65px 0;
+    text-align: center;
+}
+
+.main--plans-title {
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 50px;
+
+}
+
+.main--plans-title h2 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--black)
+}
+
+.main--plans-title p {
+    padding-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #757575;
+     
+}
+
+.plans--card {
+    position: relative;
+    width: 70%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 50px auto 0;
+    padding: 0 15px;
+    background-color: var(--just-white);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+}
+
+.plans--card .plans--recommend {
+    position: absolute;
+    width: 120px;
+    height: 31px;
+    top: -15px;
+    left: calc(50% - 60px);
+    padding: 6px;
+    background-color: var(--bitcoin-orange);
+    border-radius: 8px;
+    font-size: 1.2rem;
+    color: var(--just-white);
+}
+
+.plans--card-title {
+    padding-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: black;
+
+}
+
+.plans--card-price {
+    padding: 5px 0;
+    font-size: 5.2rem;
+    font-weight: bold;
+    line-height: 5.3rem;
+    color: black;
+}
+
+.plans--card-price span {
+    position: relative;
+    top: -27px;
+    left: -3px;
+    font-size: 1.2rem;
+    font-weight: 300;
+    
+}
+
+.plans--card-saving {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #757575;
+}
+
+.plans-card-ca {
+    width: 150px;
+    height: 48px;
+    margin-top: 20px;
+    padding-left: 20px;
+    background-color: #faf8f7;
+    border: 2px solid var(--bitcoin-orange);
+    border-radius: 4px;
+    font-family: DM Sans, sans-serif;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--black);
+}
+
+.plans-card-ca span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    background-image: url(./assets/icon/arrow-right-orange.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    vertical-align: text-bottom;
 
 }
