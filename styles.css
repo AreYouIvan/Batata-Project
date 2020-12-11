@@ -158,6 +158,7 @@ Otros --> reglas CSS y más
      height: 360px;
      margin: 0 auto;
      font-family: "Inter", sans-serif;
+     scroll-snap-align: center;
  }
 
  .main--currency-table .main--currency-title {
@@ -177,9 +178,25 @@ Otros --> reglas CSS y más
      margin: 0 auto;
  }
 
+ .main--tables-container .table_money {
+     margin: 0 5px 0 25%;
+ }
+ .main--tables-container .table_comision {
+    margin: 0 25% 0 5px;
+}
   .main--currency-container table {
     width: 100%;
     height: 100%;
+ }
+
+ .main--tables-container {
+     display: flex;
+     height: 390px;
+     overflow-x: scroll;
+     overscroll-behavior-x: contain;
+     scroll-snap-type: x proximity;
+
+
  }
 
  .main--tables-container .main--currency-container td {
