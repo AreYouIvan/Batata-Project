@@ -1,0 +1,22 @@
+.main--plans-slider {
+    justify-content: center;
+    height: auto;
+    width: auto;
+
+}
+
+.main--product-detail {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    justify-content: space-around;
+    padding: 100px;
+    /* margin: 0 auto; */ /* revisar */
+
+
+}
+
+.main--tables-container {
+    display: flex;
+    margin: 0 auto;    
+}
